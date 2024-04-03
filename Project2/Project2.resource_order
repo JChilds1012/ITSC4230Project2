@@ -17,9 +17,10 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_pick","order":3,"path":"objects/obj_pick/obj_pick.yy",},
     {"name":"obj_rock","order":1,"path":"objects/obj_rock/obj_rock.yy",},
     {"name":"obj_system","order":2,"path":"objects/obj_system/obj_system.yy",},
-    {"name":"obj_pick","order":3,"path":"objects/obj_pick/obj_pick.yy",},
+    {"name":"obj_hole","order":4,"path":"objects/obj_hole/obj_hole.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","order":3,"path":"rooms/Room4/Room4.yy",},
@@ -30,5 +31,9 @@
     {"name":"Room9","order":8,"path":"rooms/Room9/Room9.yy",},
     {"name":"pick_hold","order":2,"path":"sprites/pick_hold/pick_hold.yy",},
     {"name":"rock_hold","order":1,"path":"sprites/rock_hold/rock_hold.yy",},
+    {"name":"spr_hole","order":6,"path":"sprites/spr_hole/spr_hole.yy",},
+    {"name":"treasure_hold","order":3,"path":"sprites/treasure_hold/treasure_hold.yy",},
+    {"name":"treasure_hold1","order":4,"path":"sprites/treasure_hold1/treasure_hold1.yy",},
+    {"name":"treasure_hold2","order":5,"path":"sprites/treasure_hold2/treasure_hold2.yy",},
   ],
 }
