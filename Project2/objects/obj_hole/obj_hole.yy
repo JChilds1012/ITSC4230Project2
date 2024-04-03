@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rock",
+  "%Name":"obj_hole",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_pick","path":"objects/obj_pick/obj_pick.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_rock",
+  "name":"obj_hole",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
-    "name":"rock_hold",
-    "path":"sprites/rock_hold/rock_hold.yy",
+    "name":"spr_hole",
+    "path":"sprites/spr_hole/spr_hole.yy",
   },
   "spriteMaskId":null,
   "visible":true,
