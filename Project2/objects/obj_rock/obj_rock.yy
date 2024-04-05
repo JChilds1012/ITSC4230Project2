@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"rock_hold",
-    "path":"sprites/rock_hold/rock_hold.yy",
+    "name":"spr_boulder",
+    "path":"sprites/spr_boulder/spr_boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

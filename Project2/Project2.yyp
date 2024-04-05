@@ -53,7 +53,6 @@
     {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
     {"id":{"name":"pick_hold","path":"sprites/pick_hold/pick_hold.yy",},},
     {"id":{"name":"play_hold","path":"sprites/play_hold/play_hold.yy",},},
-    {"id":{"name":"rock_hold","path":"sprites/rock_hold/rock_hold.yy",},},
     {"id":{"name":"spr_boulder","path":"sprites/spr_boulder/spr_boulder.yy",},},
     {"id":{"name":"spr_coal","path":"sprites/spr_coal/spr_coal.yy",},},
     {"id":{"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},},

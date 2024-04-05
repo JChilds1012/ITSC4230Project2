@@ -25,4 +25,5 @@ if (mouse_check_button_pressed(1)) or (keyboard_check_pressed(ord("Z"))) {
 	
 if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
     room_goto_next();
+	global.roomLevel += 1;
 }

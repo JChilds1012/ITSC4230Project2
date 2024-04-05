@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_boulder",
-    "path":"sprites/spr_boulder/spr_boulder.yy",
+    "name":"spr_ore",
+    "path":"sprites/spr_ore/spr_ore.yy",
   },
   "spriteMaskId":null,
   "visible":true,

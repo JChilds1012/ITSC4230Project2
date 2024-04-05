@@ -1,7 +1,10 @@
-for (var i = 0; i < 15; i++) {
-    var x_Spot = random_range(30, room_width - 30); 
-    var y_Spot = random_range(30, room_height - 30);
+var baseRocks = 15
+var rocksPerLevel = 7
+var totalRocks = baseRocks + (global.roomLevel - 1) * rocksPerLevel
+for (var i = 0; i < totalRocks; i++) {
+    var x_Spot = random_range(30, room_width - 30)
+    var y_Spot = random_range(30, room_height - 30)
 
-    instance_create_layer(x_Spot, y_Spot, "Instances", obj_rock);
+    instance_create_layer(x_Spot, y_Spot, "Instances", obj_rock)
 }
 
