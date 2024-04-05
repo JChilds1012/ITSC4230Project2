@@ -16,6 +16,13 @@ if keyboard_check(ord("D")){
 x = clamp(x, sprite_width/5, room_width-sprite_width/5)
 y = clamp(y, sprite_width/5, room_height-sprite_height/5)
 
+
+
 if (mouse_check_button_pressed(1)) or (keyboard_check_pressed(ord("Z"))) {
 		instance_create_layer(x,y,"instances",obj_pick)
 	}
+	
+	
+if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
+    room_goto_next();
+}

@@ -1,6 +1,4 @@
-var rocks = 15;
-
-for (var i = 0; i < rocks; i++) {
+for (var i = 0; i < 15; i++) {
     var x_Spot = random_range(30, room_width - 30); 
     var y_Spot = random_range(30, room_height - 30);
 

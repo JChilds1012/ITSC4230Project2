@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"obj_rockCoal",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_pick","path":"objects/obj_pick/obj_pick.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"obj_rockCoal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"play_hold",
-    "path":"sprites/play_hold/play_hold.yy",
+    "name":"spr_boulder",
+    "path":"sprites/spr_boulder/spr_boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,

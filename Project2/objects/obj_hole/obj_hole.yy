@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_hole",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_hole",
   "overriddenProperties":[],
@@ -28,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_hole",
     "path":"sprites/spr_hole/spr_hole.yy",
