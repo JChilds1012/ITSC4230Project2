@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_monster",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_monster",
   "overriddenProperties":[],
@@ -26,10 +28,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spider_hold",
-    "path":"sprites/spider_hold/spider_hold.yy",
+    "name":"monster_hold",
+    "path":"sprites/monster_hold/monster_hold.yy",
   },
   "spriteMaskId":null,
   "visible":true,
