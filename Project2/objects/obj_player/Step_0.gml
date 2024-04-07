@@ -30,12 +30,3 @@ if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
     room_goto_next();
 	global.roomLevel += 1;
 }
-
-var monster = instance_place(x, y, obj_monster)
-if (monster != noone) {
-    var dir = point_direction(monster.x, monster.y, x, y)
-    var bounceDistance = 50
-    x += lengthdir_x(bounceDistance, dir)
-    y += lengthdir_y(bounceDistance, dir)
-	global.playerHealth = global.playerHealth - 35
-}
