@@ -1,9 +1,7 @@
-
 if (!pursuing_player) {
 	x += speed_x;
 
-	// Check for room boundaries and reverse speed
-	if (x <= 0 || x >= room_width - sprite_width) {
+	if (x <= 0 + sprite_width || x >= room_width - sprite_width) {
 		speed_x = -speed_x;
 	}
 }
@@ -18,4 +16,8 @@ if (distance_to_player < 200) { // Spider senses player within 200 pixels
 	pursuing_player = true;
 } else {
 	pursuing_player = false;
+}
+
+if timesHit > 1 {
+	instance_destroy(self)
 }
