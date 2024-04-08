@@ -1,4 +1,4 @@
 randomize()
 global.roomLevel = 1
 global.playerHealth = 100
-score = 0
+global.score = 0
