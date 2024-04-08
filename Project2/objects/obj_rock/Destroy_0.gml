@@ -7,3 +7,5 @@ if !instance_exists(obj_hole) or !instance_exists(obj_rockCoal) or !instance_exi
         instance_create_layer(x, y, "Instances", obj_hole)
     }
 }
+
+score += 1
