@@ -35,6 +35,7 @@
     {"name":"obj_spider","order":15,"path":"objects/obj_spider/obj_spider.yy",},
     {"name":"obj_system","order":2,"path":"objects/obj_system/obj_system.yy",},
     {"name":"obj_weapon","order":18,"path":"objects/obj_weapon/obj_weapon.yy",},
+    {"name":"obj_win_placeholder","order":19,"path":"objects/obj_win_placeholder/obj_win_placeholder.yy",},
     {"name":"rm_menu","order":9,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Room2","order":10,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":11,"path":"rooms/Room3/Room3.yy",},

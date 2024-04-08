@@ -55,6 +55,7 @@
     {"id":{"name":"obj_spider","path":"objects/obj_spider/obj_spider.yy",},},
     {"id":{"name":"obj_system","path":"objects/obj_system/obj_system.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
+    {"id":{"name":"obj_win_placeholder","path":"objects/obj_win_placeholder/obj_win_placeholder.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
