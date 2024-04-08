@@ -3,7 +3,7 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
-draw_text(x,y, "Controls\nEnter Here");
+draw_text(x,y, "Controls\nWASD - move   F - enter hole\nleft click - melee");
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
