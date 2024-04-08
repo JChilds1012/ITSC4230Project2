@@ -1,5 +1,6 @@
-initial_x = x
-initial_y = y
-radius = 150
-speed = random_range(-0.03,0.03)
+circle_center_x = x
+circle_center_y = y
 angle = random_range(0,360)
+radius = 150
+pursuing_player = false
+speed = choose(-0.03,0.03)
