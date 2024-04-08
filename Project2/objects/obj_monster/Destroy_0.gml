@@ -1,1 +1,1 @@
-score += 30
+score += points_on_defeat

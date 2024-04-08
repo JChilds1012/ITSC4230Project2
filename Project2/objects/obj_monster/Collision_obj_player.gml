@@ -1,8 +1,10 @@
-var dir = point_direction(x, y, other.x, other.y)
-var bounceDistance = 35
-with(other) {
-    x += lengthdir_x(bounceDistance, dir);
-    y += lengthdir_y(bounceDistance, dir);
-}
 
-inflict_damage(35)
+var dir = point_direction(x, y, other.x, other.y);
+
+
+other.speed = 10; 
+other.direction = dir
+
+alarm_set(0, 5);
+
+inflict_damage(melee_damage);
