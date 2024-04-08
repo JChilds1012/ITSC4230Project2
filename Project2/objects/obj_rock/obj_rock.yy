@@ -5,6 +5,7 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_pick","path":"objects/obj_pick/obj_pick.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_rock",
@@ -32,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"rock_hold",
-    "path":"sprites/rock_hold/rock_hold.yy",
+    "name":"spr_boulder",
+    "path":"sprites/spr_boulder/spr_boulder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
