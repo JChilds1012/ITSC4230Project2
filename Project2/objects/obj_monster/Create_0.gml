@@ -1,1 +1,0 @@
-timesHit = 0

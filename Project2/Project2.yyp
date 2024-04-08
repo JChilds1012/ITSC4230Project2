@@ -35,8 +35,8 @@
   },
   "name":"Project2",
   "resources":[
-    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"fnt_inGame","path":"fonts/fnt_inGame/fnt_inGame.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
     {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
     {"id":{"name":"obj_button_help","path":"objects/obj_button_help/obj_button_help.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
@@ -54,6 +54,8 @@
     {"id":{"name":"obj_rockOre","path":"objects/obj_rockOre/obj_rockOre.yy",},},
     {"id":{"name":"obj_spider","path":"objects/obj_spider/obj_spider.yy",},},
     {"id":{"name":"obj_system","path":"objects/obj_system/obj_system.yy",},},
+    {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
+    {"id":{"name":"obj_win_placeholder","path":"objects/obj_win_placeholder/obj_win_placeholder.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"Room","path":"rooms/Room/Room.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
@@ -64,6 +66,7 @@
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"id":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
     {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
+    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"bat_hold","path":"sprites/bat_hold/bat_hold.yy",},},
     {"id":{"name":"monster_hold","path":"sprites/monster_hold/monster_hold.yy",},},
     {"id":{"name":"pick_hold","path":"sprites/pick_hold/pick_hold.yy",},},
@@ -81,6 +84,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"Room","path":"rooms/Room/Room.yy",},},
+    {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
     {"roomId":{"name":"Room4","path":"rooms/Room4/Room4.yy",},},
@@ -88,7 +92,6 @@
     {"roomId":{"name":"Room6","path":"rooms/Room6/Room6.yy",},},
     {"roomId":{"name":"Room7","path":"rooms/Room7/Room7.yy",},},
     {"roomId":{"name":"Room8","path":"rooms/Room8/Room8.yy",},},
-    {"roomId":{"name":"Room9","path":"rooms/Room9/Room9.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

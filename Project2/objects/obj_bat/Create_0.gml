@@ -1,5 +1,8 @@
-initial_x = x
-initial_y = y
-radius = 150
-speed = random_range(-0.03,0.03)
-angle = random_range(0,360)
+circle_center_x = x;
+circle_center_y = y;
+angle = random_range(0,360);
+radius = 150;
+norm_speed = choose(-3,3);
+points_on_defeat = 10
+can_pursue = true;
+monster_health = 50;

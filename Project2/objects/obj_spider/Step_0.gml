@@ -1,25 +1,15 @@
-if instance_exists(obj_player) {
-	var distance_to_player = point_distance(x, y, obj_player.x, obj_player.y)
+/// @description Insert description here
+// You can write your code in this editor
 
-	if (distance_to_player < 200) {
-		normSpeed = 0
-		pursuing_player = true
-	    var direction_to_player = point_direction(x, y, obj_player.x, obj_player.y)
-	    x += lengthdir_x(2, direction_to_player)
-	    y += lengthdir_y(2, direction_to_player)
-	} else {
-		pursuing_player = false
+// Inherit the parent event
+event_inherited();
+
+if (!is_pursuing_player) {
+	if (x <= 50 || x >= 1850) {
+	image_xscale = image_xscale * -1
+    h_direction *= -1
 	}
-
-	if !pursuing_player {
-		normSpeed = 2.5
-	}
+	hspeed = norm_speed * h_direction
 }
 
-if timesHit > 1 {
-	instance_destroy(self)
-}
 
-if (x < 1 + sprite_width || x > room_width - sprite_width) {
-    normSpeed = -normSpeed
-}
