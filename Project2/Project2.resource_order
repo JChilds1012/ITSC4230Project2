@@ -19,6 +19,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fnt_inGame","order":1,"path":"fonts/fnt_inGame/fnt_inGame.yy",},
+    {"name":"fnt_score","order":2,"path":"fonts/fnt_score/fnt_score.yy",},
     {"name":"obj_bat","order":17,"path":"objects/obj_bat/obj_bat.yy",},
     {"name":"obj_button_parent","order":1,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"obj_button_play","order":2,"path":"objects/obj_button_play/obj_button_play.yy",},

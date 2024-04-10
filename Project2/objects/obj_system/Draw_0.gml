@@ -3,7 +3,7 @@ if instance_exists(obj_player) {
 } else {
     draw_text(room_width / 2 - 200, room_height / 2,"To be continued... Press U to return to title screen")
 }
-draw_set_font(fnt_inGame);
+draw_set_font(fnt_score);
 draw_text(32, 75, "Score: " + string(score))
 
 	
