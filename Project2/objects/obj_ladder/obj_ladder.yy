@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hole",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ladder",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hole",
+  "name":"obj_ladder",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hole_hold",
-    "path":"sprites/spr_hole_hold/spr_hole_hold.yy",
+    "name":"spr_ladder_hold",
+    "path":"sprites/spr_ladder_hold/spr_ladder_hold.yy",
   },
   "spriteMaskId":null,
   "visible":true,
