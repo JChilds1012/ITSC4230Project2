@@ -27,6 +27,7 @@ if instance_exists(obj_pick){
 }
 	
 if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
-    room_goto_next();
+	
 	global.roomLevel += 1;
+	room_goto_next();
 }
