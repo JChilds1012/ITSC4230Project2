@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_hole_hold",
-    "path":"sprites/spr_hole_hold/spr_hole_hold.yy",
+    "name":"spr_hole",
+    "path":"sprites/spr_hole/spr_hole.yy",
   },
   "spriteMaskId":null,
   "visible":true,
