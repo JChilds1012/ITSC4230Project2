@@ -1,1 +1,2 @@
-instance_destroy(self)
+timesHit += 1
+sprite_index = damaged

@@ -1,1 +1,2 @@
 randomize()
+timesHit = 0
