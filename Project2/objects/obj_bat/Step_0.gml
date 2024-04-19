@@ -27,3 +27,7 @@ if (!is_pursuing_player) {
     x = circle_center_x + cos(angle) * radius
     y = circle_center_y + sin(angle) * radius
 }
+
+if hit_count = 2 {
+	instance_destroy()
+}

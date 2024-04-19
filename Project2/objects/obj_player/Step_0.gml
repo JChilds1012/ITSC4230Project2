@@ -18,8 +18,13 @@ y = clamp(y, sprite_width/5, room_height-sprite_height/5)
 
 
 
-if !instance_exists(obj_pick) and (mouse_check_button_pressed(1)) or (keyboard_check_pressed(ord("Z"))) {
+if !instance_exists(obj_pickAnimation) and (mouse_check_button_pressed(2)){
 		instance_create_layer(-10,-10,"instances",obj_pick)
+		instance_create_layer(-10,-10,"instances",obj_pickAnimation)
+	}
+if !instance_exists(obj_swordAnimation) and (mouse_check_button_pressed(1)){
+		instance_create_layer(-10,-10,"instances",obj_sword)
+		instance_create_layer(-10,-10,"instances",obj_swordAnimation)
 	}
 
 if instance_exists(obj_pick){

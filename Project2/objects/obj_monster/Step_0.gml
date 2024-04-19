@@ -20,3 +20,7 @@ if instance_exists(obj_player) {
 		vspeed = norm_speed * v_direction
 	}
 }
+
+if hit_count >= 7 {
+	instance_destroy()
+}

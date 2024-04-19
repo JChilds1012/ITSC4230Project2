@@ -4,7 +4,9 @@
   "eventList":[],
   "managed":true,
   "name":"obj_rockCrystal",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"propertyId":{"name":"damaged","path":"objects/obj_rock/obj_rock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_crystal_dmg",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

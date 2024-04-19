@@ -21,4 +21,6 @@ if (!is_pursuing_player) {
 	hspeed = norm_speed * h_direction
 }
 
-
+if hit_count >= 5 {
+	instance_destroy()
+}
