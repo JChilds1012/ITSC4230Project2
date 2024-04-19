@@ -8,5 +8,5 @@ draw_text(room_width / 2 - text_width / 2, room_height / 3, "To be continued... 
 draw_set_font(fnt_score);
 draw_text(32, 75, "Score: " + string(score))
 
-draw_set_font(fnt_inGame);
+draw_set_font(fnt_score);
 draw_text(32, 115, "Coin: " + string(global.worth))
