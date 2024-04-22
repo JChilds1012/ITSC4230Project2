@@ -15,3 +15,9 @@ if room == RoomStore {
 	draw_set_font(fnt_score)
 	draw_text(160, 157, "Press Z to buy")
 }
+
+if instance_exists(obj_boss) {
+	draw_set_font(fnt_score)
+		draw_healthbar(room_width - 32,16, room_width - 700, 70,global.bossHealth,c_black,c_red,c_lime,1,true,true)
+
+}
