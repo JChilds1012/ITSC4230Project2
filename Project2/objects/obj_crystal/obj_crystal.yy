@@ -1,15 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bat",
+  "%Name":"obj_crystal",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bat",
+  "name":"obj_crystal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bat_hold",
-    "path":"sprites/bat_hold/bat_hold.yy",
+    "name":"spr_healthCrystal",
+    "path":"sprites/spr_healthCrystal/spr_healthCrystal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

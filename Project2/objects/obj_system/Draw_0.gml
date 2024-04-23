@@ -13,7 +13,7 @@ draw_text(32, 115, "Coin: " + string(global.worth))
 
 if room == RoomStore {
 	draw_set_font(fnt_score)
-	draw_text(160, 157, "Press Z to buy")
+	draw_text(864, 765, "Press Z to buy")
 }
 
 if instance_exists(obj_boss) {

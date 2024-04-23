@@ -11,3 +11,8 @@ if (room != Room9) {
 }
 score += worth
 global.worth += worth
+
+var healthRange = random_range(0,100)
+if healthRange < 15 {
+	instance_create_layer(x, y, "Instances", obj_crystal)
+}
