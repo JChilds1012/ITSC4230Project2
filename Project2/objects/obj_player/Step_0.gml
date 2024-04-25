@@ -13,21 +13,6 @@ if keyboard_check(ord("D")){
 	x += 3
 }
 
-if room == RoomStore {
-	if keyboard_check(ord("W")){
-	y += -5
-}
-if keyboard_check(ord("A")){
-	x += -5
-}
-if keyboard_check(ord("S")){
-	y += 5
-}
-if keyboard_check(ord("D")){
-	x += 5
-}
-}
-
 x = clamp(x, sprite_width/5, room_width-sprite_width/5)
 y = clamp(y, sprite_width/5, room_height-sprite_height/5)
 
