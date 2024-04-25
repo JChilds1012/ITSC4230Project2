@@ -6,7 +6,6 @@
   "name":"obj_rockCrystal",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"propertyId":{"name":"damaged","path":"objects/obj_rock/obj_rock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_crystal_dmg",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"propertyId":{"name":"worth","path":"objects/obj_rock/obj_rock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
   ],
   "parent":{
     "name":"Objects",
