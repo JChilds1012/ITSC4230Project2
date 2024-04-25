@@ -13,6 +13,21 @@ if keyboard_check(ord("D")){
 	x += 3
 }
 
+if room == RoomStore {
+	if keyboard_check(ord("W")){
+	y += -5
+}
+if keyboard_check(ord("A")){
+	x += -5
+}
+if keyboard_check(ord("S")){
+	y += 5
+}
+if keyboard_check(ord("D")){
+	x += 5
+}
+}
+
 x = clamp(x, sprite_width/5, room_width-sprite_width/5)
 y = clamp(y, sprite_width/5, room_height-sprite_height/5)
 
@@ -30,7 +45,11 @@ if !instance_exists(obj_swordAnimation) and (mouse_check_button_pressed(mb_left)
 if instance_exists(obj_pick){
 	obj_player.speed = 0
 }
-	
+
+if instance_exists(obj_sword){
+	obj_player.speed = 0
+}
+
 if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
     room_goto_next()
 	global.roomLevel += 1
