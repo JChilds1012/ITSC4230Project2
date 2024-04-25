@@ -30,7 +30,6 @@
     {"name":"obj_crystal","order":18,"path":"objects/obj_crystal/obj_crystal.yy",},
     {"name":"obj_door","order":19,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_door2","order":20,"path":"objects/obj_door2/obj_door2.yy",},
-    {"name":"obj_goblin","order":13,"path":"objects/obj_goblin/obj_goblin.yy",},
     {"name":"obj_hole","order":6,"path":"objects/obj_hole/obj_hole.yy",},
     {"name":"obj_ladder","order":10,"path":"objects/obj_ladder/obj_ladder.yy",},
     {"name":"obj_monster","order":11,"path":"objects/obj_monster/obj_monster.yy",},
