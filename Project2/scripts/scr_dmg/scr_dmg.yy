@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"Script1",
+  "%Name":"scr_dmg",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Script1",
+  "name":"scr_dmg",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
