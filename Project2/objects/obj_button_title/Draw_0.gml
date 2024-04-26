@@ -5,3 +5,6 @@
 event_inherited();
 
 image_alpha = 0;
+
+
+//draw_set_color(c_black);
