@@ -43,6 +43,7 @@
     {"name":"obj_sword","order":12,"path":"objects/obj_sword/obj_sword.yy",},
     {"name":"obj_swordAnimation","order":15,"path":"objects/obj_swordAnimation/obj_swordAnimation.yy",},
     {"name":"obj_system","order":17,"path":"objects/obj_system/obj_system.yy",},
+    {"name":"obj_snake","order":21,"path":"objects/obj_snake/obj_snake.yy",},
     {"name":"rm_menu","order":9,"path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"Room2","order":10,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":11,"path":"rooms/Room3/Room3.yy",},
