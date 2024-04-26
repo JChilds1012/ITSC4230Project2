@@ -3,3 +3,7 @@ if instance_exists(obj_player){
 	x += lengthdir_x(1.5, direction_to_player)	
 	y += lengthdir_y(1.5, direction_to_player)
 }
+
+if global.bossHealth <= 0 {
+	instance_destroy(self)
+}
