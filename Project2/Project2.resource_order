@@ -33,7 +33,6 @@
     {"name":"obj_door2","order":20,"path":"objects/obj_door2/obj_door2.yy",},
     {"name":"obj_hole","order":6,"path":"objects/obj_hole/obj_hole.yy",},
     {"name":"obj_ladder","order":10,"path":"objects/obj_ladder/obj_ladder.yy",},
-    {"name":"obj_monster","order":11,"path":"objects/obj_monster/obj_monster.yy",},
     {"name":"obj_pick","order":2,"path":"objects/obj_pick/obj_pick.yy",},
     {"name":"obj_pickAnimation","order":14,"path":"objects/obj_pickAnimation/obj_pickAnimation.yy",},
     {"name":"obj_pickUpgrade","order":26,"path":"objects/obj_pickUpgrade/obj_pickUpgrade.yy",},

@@ -52,7 +52,6 @@
     {"id":{"name":"obj_door2","path":"objects/obj_door2/obj_door2.yy",},},
     {"id":{"name":"obj_hole","path":"objects/obj_hole/obj_hole.yy",},},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},},
-    {"id":{"name":"obj_monster","path":"objects/obj_monster/obj_monster.yy",},},
     {"id":{"name":"obj_pick","path":"objects/obj_pick/obj_pick.yy",},},
     {"id":{"name":"obj_pickAnimation","path":"objects/obj_pickAnimation/obj_pickAnimation.yy",},},
     {"id":{"name":"obj_pickUpgrade","path":"objects/obj_pickUpgrade/obj_pickUpgrade.yy",},},
