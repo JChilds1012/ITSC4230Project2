@@ -33,20 +33,26 @@ y = clamp(y, sprite_width/5, room_height-sprite_height/5)
 
 
 
-if !instance_exists(obj_pickAnimation) and (mouse_check_button_pressed(mb_right)){
-		instance_create_layer(-10,-10,"instances",obj_pick)
-		instance_create_layer(-10,-10,"instances",obj_pickAnimation)
-	}
-if !instance_exists(obj_swordAnimation) and (mouse_check_button_pressed(mb_left)){
-		instance_create_layer(-10,-10,"instances",obj_sword)
-		instance_create_layer(-10,-10,"instances",obj_swordAnimation)
-	}
-
-if instance_exists(obj_pick){
-	obj_player.speed = 0
+if (pick_cooldown > 0) {
+    pick_cooldown -= 1;
+}
+if (!instance_exists(obj_pickAnimation) and pick_cooldown <= 0 and mouse_check_button_pressed(mb_right)) {
+    instance_create_layer(x, y, "instances", global.curentTool)
+    instance_create_layer(x, y, "instances", obj_pickAnimation)
+    pick_cooldown = 20
+}
+	
+if (attack_cooldown > 0) {
+    attack_cooldown -= 1;
+}
+if (!instance_exists(obj_swordAnimation) and attack_cooldown <= 0 and mouse_check_button_pressed(mb_left)) {
+    instance_create_layer(x, y, "instances", global.curentWeapon)
+    instance_create_layer(x, y, "instances", obj_swordAnimation)
+    attack_cooldown = 20
 }
 
-if instance_exists(obj_sword){
+
+if instance_exists(global.curentTool) or instance_exists(global.curentWeapon){
 	obj_player.speed = 0
 }
 

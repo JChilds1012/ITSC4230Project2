@@ -1,1 +1,1 @@
-hp = 500
+global.bossHealth = 500
