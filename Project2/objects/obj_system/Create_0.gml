@@ -8,3 +8,5 @@ global.curentWeapon = obj_sword
 global.curentTool = obj_pick
 global.curentWeaponAnimation = sword_hold
 global.curentToolAnimation = pick_hold
+
+audio_play_sound(background,0, false)

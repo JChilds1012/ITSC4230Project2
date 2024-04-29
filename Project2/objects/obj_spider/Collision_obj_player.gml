@@ -10,4 +10,5 @@ if (self.can_hit) {
 	self.can_hit = false;
 	alarm_set(1, self.hit_speed);
 	inflict_damage(15);
+	audio_play_sound(spider_attack,1, false)
 }
