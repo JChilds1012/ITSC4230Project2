@@ -68,30 +68,34 @@ if (place_meeting(x, y, obj_ladder) and keyboard_check_pressed(ord("G"))) {
 	global.roomLevel -= 1
 }
 
-if (place_meeting(x, y, obj_swordUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+if (place_meeting(x, y, obj_swordUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 100) {
 	global.currentWeapon = obj_swordUpgrade
 	global.currentWeaponAnimation = obj_swordUpgrade
-	global.worth -= 50
+    audio_play_sound(snd_purchase, 1, false)
+	global.worth -= 100
 	instance_destroy(obj_swordUpgradeDisplay)
 }
 
-if (place_meeting(x, y, obj_swordUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+if (place_meeting(x, y, obj_swordUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 150) {
 	global.currentWeapon = obj_swordUpgrade2
 	global.currentWeaponAnimation = obj_swordUpgrade2
-	global.worth -= 50
+    audio_play_sound(snd_purchase, 1, false)
+	global.worth -= 150
 	instance_destroy(obj_swordUpgradeDisplay2)
 }
 
-if (place_meeting(x, y, obj_pickUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+if (place_meeting(x, y, obj_pickUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 150) {
 	global.currentTool = obj_pickUpgrade2
 	global.currentToolAnimation = obj_pickUpgrade2
-	global.worth -= 50
+    audio_play_sound(snd_purchase, 1, false)
+	global.worth -= 150
 	instance_destroy(obj_pickUpgradeDisplay2)
 }
 
-if (place_meeting(x, y, obj_pickUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+if (place_meeting(x, y, obj_pickUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 100) {
 	global.currentTool = obj_pickUpgrade
 	global.currentToolAnimation = obj_pickUpgrade
-	global.worth -= 50
+    audio_play_sound(snd_purchase, 1, false)
+	global.worth -= 100
 	instance_destroy(obj_pickUpgradeDisplay)
 }

@@ -27,3 +27,7 @@ if keyboard_check_pressed(ord("N")){
 if keyboard_check_pressed(ord("M")){
 	instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_boss);
 } 
+
+if !instance_exists(obj_boss){
+	audio_stop_sound(snd_bossFight)
+}
