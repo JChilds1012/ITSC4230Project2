@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"goblin_hold",
-    "path":"sprites/goblin_hold/goblin_hold.yy",
+    "name":"spr_enemy_snake",
+    "path":"sprites/spr_enemy_snake/spr_enemy_snake.yy",
   },
   "spriteMaskId":null,
   "visible":true,

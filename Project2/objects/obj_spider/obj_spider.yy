@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spider_hold",
-    "path":"sprites/spider_hold/spider_hold.yy",
+    "name":"spr_enemy_spider",
+    "path":"sprites/spr_enemy_spider/spr_enemy_spider.yy",
   },
   "spriteMaskId":null,
   "visible":true,

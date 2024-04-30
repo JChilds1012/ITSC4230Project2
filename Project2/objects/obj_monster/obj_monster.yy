@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"monster_hold",
-    "path":"sprites/monster_hold/monster_hold.yy",
+    "name":"spr_enemy_monster",
+    "path":"sprites/spr_enemy_monster/spr_enemy_monster.yy",
   },
   "spriteMaskId":null,
   "visible":true,

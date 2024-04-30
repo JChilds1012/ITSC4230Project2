@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sword_hold",
-    "path":"sprites/sword_hold/sword_hold.yy",
+    "name":"spr_sword_basic",
+    "path":"sprites/spr_sword_basic/spr_sword_basic.yy",
   },
   "spriteMaskId":null,
   "visible":true,

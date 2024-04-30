@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bat_hold",
-    "path":"sprites/bat_hold/bat_hold.yy",
+    "name":"spr_enemy_bat",
+    "path":"sprites/spr_enemy_bat/spr_enemy_bat.yy",
   },
   "spriteMaskId":null,
   "visible":true,
