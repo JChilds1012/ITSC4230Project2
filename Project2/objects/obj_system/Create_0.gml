@@ -6,5 +6,5 @@ global.worth = 0
 global.bossHealth = 0
 global.curentWeapon = obj_sword
 global.curentTool = obj_pick
-global.curentWeaponAnimation = sword_hold
-global.curentToolAnimation = pick_hold
+global.curentWeaponAnimation = spr_sword_basic
+global.curentToolAnimation = spr_pickaxe_basic

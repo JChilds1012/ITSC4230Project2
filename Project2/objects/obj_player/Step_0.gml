@@ -57,7 +57,8 @@ if instance_exists(global.curentTool) or instance_exists(global.curentWeapon){
 }
 
 if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
-    room_goto_next()
+    //room_goto_next()
+	room_goto(Room9)
 	global.roomLevel += 1
 }
 
