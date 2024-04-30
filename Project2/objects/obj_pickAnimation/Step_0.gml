@@ -5,4 +5,4 @@ if instance_exists(obj_player) {
 
 image_angle = point_direction(obj_pickAnimation.x, obj_pickAnimation.y, mouse_x, mouse_y)
 
-image_index = global.curentToolAnimation
+image_index = global.currentToolAnimation

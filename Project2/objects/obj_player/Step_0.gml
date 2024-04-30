@@ -37,7 +37,7 @@ if (pick_cooldown > 0) {
     pick_cooldown -= 1;
 }
 if (!instance_exists(obj_pickAnimation) and pick_cooldown <= 0 and mouse_check_button_pressed(mb_right)) {
-    instance_create_layer(x, y, "instances", global.curentTool)
+    instance_create_layer(x, y, "instances", global.currentTool)
     instance_create_layer(x, y, "instances", obj_pickAnimation)
     pick_cooldown = 20
 }
@@ -46,23 +46,50 @@ if (attack_cooldown > 0) {
     attack_cooldown -= 1;
 }
 if (!instance_exists(obj_swordAnimation) and attack_cooldown <= 0 and mouse_check_button_pressed(mb_left)) {
-    instance_create_layer(x, y, "instances", global.curentWeapon)
+    instance_create_layer(x, y, "instances", global.currentWeapon)
     instance_create_layer(x, y, "instances", obj_swordAnimation)
     attack_cooldown = 20
 }
 
 
-if instance_exists(global.curentTool) or instance_exists(global.curentWeapon){
+if instance_exists(global.currentTool) or instance_exists(global.currentWeapon){
 	obj_player.speed = 0
 }
 
 if (place_meeting(x, y, obj_hole) and keyboard_check_pressed(ord("F"))) {
-    //room_goto_next()
-	room_goto(Room9)
+    room_goto_next()
 	global.roomLevel += 1
 }
 
 if (place_meeting(x, y, obj_ladder) and keyboard_check_pressed(ord("G"))) {
     room_goto_previous()
 	global.roomLevel -= 1
+}
+
+if (place_meeting(x, y, obj_swordUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+	global.currentWeapon = obj_swordUpgrade
+	global.currentWeaponAnimation = obj_swordUpgrade
+	global.worth -= 50
+	instance_destroy(obj_swordUpgradeDisplay)
+}
+
+if (place_meeting(x, y, obj_swordUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+	global.currentWeapon = obj_swordUpgrade2
+	global.currentWeaponAnimation = obj_swordUpgrade2
+	global.worth -= 50
+	instance_destroy(obj_swordUpgradeDisplay2)
+}
+
+if (place_meeting(x, y, obj_pickUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+	global.currentTool = obj_pickUpgrade2
+	global.currentToolAnimation = obj_pickUpgrade2
+	global.worth -= 50
+	instance_destroy(obj_pickUpgradeDisplay2)
+}
+
+if (place_meeting(x, y, obj_pickUpgradeDisplay) and keyboard_check_pressed(ord("Z")) and global.worth >= 50) {
+	global.currentTool = obj_pickUpgrade
+	global.currentToolAnimation = obj_pickUpgrade
+	global.worth -= 50
+	instance_destroy(obj_pickUpgradeDisplay)
 }

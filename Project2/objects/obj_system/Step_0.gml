@@ -17,7 +17,11 @@ if keyboard_check(ord("L")){
 } 
 
 if keyboard_check_pressed(ord("O")){
-	global.bossHealth -= 10
+	global.bossHealth -= 30
+} 
+
+if keyboard_check_pressed(ord("N")){
+	global.worth += 100
 } 
 
 if keyboard_check_pressed(ord("M")){
