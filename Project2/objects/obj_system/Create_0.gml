@@ -8,3 +8,4 @@ global.currentWeapon = obj_sword
 global.currentTool = obj_pick
 global.currentWeaponAnimation = spr_sword_basic
 global.currentToolAnimation = spr_pickaxe_basic
+audio_play_sound(snd_background, 1, true)
