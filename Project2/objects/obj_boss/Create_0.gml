@@ -1,1 +1,1 @@
-global.bossHealth = 500
+global.bossHealth = 100
