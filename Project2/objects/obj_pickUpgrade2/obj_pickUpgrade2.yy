@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"pick_hold",
-    "path":"sprites/pick_hold/pick_hold.yy",
+    "name":"spr_pickaxe_ancient",
+    "path":"sprites/spr_pickaxe_ancient/spr_pickaxe_ancient.yy",
   },
   "spriteMaskId":null,
   "visible":true,

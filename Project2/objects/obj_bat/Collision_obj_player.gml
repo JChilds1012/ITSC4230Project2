@@ -1,7 +1,2 @@
-
-
-if (self.can_hit) {
-	self.can_hit = false;
-	alarm_set(0, self.hit_speed)
-	inflict_damage(5)
-}
+inflict_damage(3)
+audio_play_sound(snd_bat, 1, false)

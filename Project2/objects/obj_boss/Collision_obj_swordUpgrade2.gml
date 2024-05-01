@@ -1,2 +1,2 @@
-global.bossHealth -= 100
+global.bossHealth -= 15
 instance_destroy(other)
