@@ -12,7 +12,7 @@ if keyboard_check(ord("P")){
 	global.playerHealth += 100000000000000000000000000000000
 }
 
-if keyboard_check(ord("L")){
+if keyboard_check_pressed(ord("L")){
 	instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_hole);
 } 
 

@@ -1,3 +1,3 @@
-if timesHit = 3 {
+if timesHit >= 3 {
 	instance_destroy()
 }

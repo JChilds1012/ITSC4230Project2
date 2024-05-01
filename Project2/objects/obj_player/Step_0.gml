@@ -37,9 +37,9 @@ if (pick_cooldown > 0) {
     pick_cooldown -= 1;
 }
 if (!instance_exists(obj_pickAnimation) and pick_cooldown <= 0 and mouse_check_button_pressed(mb_right)) {
-    instance_create_layer(x, y, "instances", obj_pickUpgrade2)
+    instance_create_layer(x, y, "instances", global.currentTool)
     audio_play_sound(snd_swing, 1, false)
-	instance_create_layer(x, y, "instances", obj_pickAnimation)
+	instance_create_layer(x, y, "instances", global.currentToolAnimation)
     pick_cooldown = 20
 }
 	
@@ -47,9 +47,9 @@ if (attack_cooldown > 0) {
     attack_cooldown -= 1;
 }
 if (!instance_exists(obj_swordAnimation) and attack_cooldown <= 0 and mouse_check_button_pressed(mb_left)) {
-    instance_create_layer(x, y, "instances", obj_swordUpgrade2)
+    instance_create_layer(x, y, "instances", global.currentWeapon)
     audio_play_sound(snd_swing, 1, false)
-    instance_create_layer(x, y, "instances", obj_swordAnimation)
+    instance_create_layer(x, y, "instances", global.currentWeaponAnimation)
     attack_cooldown = 20
 }
 
@@ -75,19 +75,19 @@ if (place_meeting(x, y, obj_swordUpgradeDisplay) and keyboard_check_pressed(ord(
 	instance_destroy(obj_swordUpgradeDisplay)
 }
 
-if (place_meeting(x, y, obj_swordUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 150) {
+if (place_meeting(x, y, obj_swordUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 200) {
 	global.currentWeapon = obj_swordUpgrade2
 	global.currentWeaponAnimation = spr_sword_ancient
     audio_play_sound(snd_purchase, 1, false)
-	global.worth -= 150
+	global.worth -= 200
 	instance_destroy(obj_swordUpgradeDisplay2)
 }
 
-if (place_meeting(x, y, obj_pickUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 150) {
+if (place_meeting(x, y, obj_pickUpgradeDisplay2) and keyboard_check_pressed(ord("Z")) and global.worth >= 200) {
 	global.currentTool = obj_pickUpgrade2
 	global.currentToolAnimation = spr_pickaxe_metal
     audio_play_sound(snd_purchase, 1, false)
-	global.worth -= 150
+	global.worth -= 200
 	instance_destroy(obj_pickUpgradeDisplay2)
 }
 
