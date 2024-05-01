@@ -84,6 +84,7 @@
     {"name":"spr_crystal","order":6,"path":"sprites/spr_crystal/spr_crystal.yy",},
     {"name":"spr_door","order":20,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"spr_enemy_bat","order":25,"path":"sprites/spr_enemy_bat/spr_enemy_bat.yy",},
+    {"name":"spr_enemy_boss","order":39,"path":"sprites/spr_enemy_boss/spr_enemy_boss.yy",},
     {"name":"spr_enemy_monster","order":27,"path":"sprites/spr_enemy_monster/spr_enemy_monster.yy",},
     {"name":"spr_enemy_snake","order":26,"path":"sprites/spr_enemy_snake/spr_enemy_snake.yy",},
     {"name":"spr_enemy_spider","order":30,"path":"sprites/spr_enemy_spider/spr_enemy_spider.yy",},
@@ -100,5 +101,6 @@
     {"name":"spr_sword_ancient","order":33,"path":"sprites/spr_sword_ancient/spr_sword_ancient.yy",},
     {"name":"spr_sword_basic","order":31,"path":"sprites/spr_sword_basic/spr_sword_basic.yy",},
     {"name":"spr_sword_metal","order":32,"path":"sprites/spr_sword_metal/spr_sword_metal.yy",},
+    {"name":"spr_ladder","order":40,"path":"sprites/spr_ladder/spr_ladder.yy",},
   ],
 }
