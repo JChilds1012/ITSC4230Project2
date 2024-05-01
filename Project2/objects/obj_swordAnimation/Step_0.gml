@@ -5,4 +5,4 @@ if instance_exists(obj_player) {
 
 image_angle = point_direction(obj_swordAnimation.x, obj_swordAnimation.y, mouse_x, mouse_y)
 
-image_index = global.currentWeaponAnimation
+sprite_index = global.currentWeaponAnimation

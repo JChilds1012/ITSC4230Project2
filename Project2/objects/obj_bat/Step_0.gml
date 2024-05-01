@@ -28,6 +28,6 @@ if (!is_pursuing_player) {
     y = circle_center_y + sin(angle) * radius
 }
 
-if hit_count = 2 {
+if hit_count >= 2 {
 	instance_destroy()
 }
