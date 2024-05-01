@@ -39,7 +39,7 @@ if (pick_cooldown > 0) {
 if (!instance_exists(obj_pickAnimation) and pick_cooldown <= 0 and mouse_check_button_pressed(mb_right)) {
     instance_create_layer(x, y, "instances", global.currentTool)
     audio_play_sound(snd_swing, 1, false)
-	instance_create_layer(x, y, "instances", global.currentToolAnimation)
+	//instance_create_layer(x, y, "instances", global.currentToolAnimation)
     pick_cooldown = 20
 }
 	
@@ -49,7 +49,7 @@ if (attack_cooldown > 0) {
 if (!instance_exists(obj_swordAnimation) and attack_cooldown <= 0 and mouse_check_button_pressed(mb_left)) {
     instance_create_layer(x, y, "instances", global.currentWeapon)
     audio_play_sound(snd_swing, 1, false)
-    instance_create_layer(x, y, "instances", global.currentWeaponAnimation)
+    //instance_create_layer(x, y, "instances", global.currentWeaponAnimation)
     attack_cooldown = 20
 }
 
