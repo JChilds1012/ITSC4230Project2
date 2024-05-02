@@ -71,7 +71,6 @@
     {"name":"snd_purchase","order":7,"path":"sounds/snd_purchase/snd_purchase.yy",},
     {"name":"snd_spider","order":5,"path":"sounds/snd_spider/snd_spider.yy",},
     {"name":"snd_swordHit","order":1,"path":"sounds/snd_swordHit/snd_swordHit.yy",},
-    {"name":"boss_hold","order":18,"path":"sprites/boss_hold/boss_hold.yy",},
     {"name":"dirt_bg","order":22,"path":"sprites/dirt_bg/dirt_bg.yy",},
     {"name":"ground_bg","order":23,"path":"sprites/ground_bg/ground_bg.yy",},
     {"name":"menu_bg","order":24,"path":"sprites/menu_bg/menu_bg.yy",},
